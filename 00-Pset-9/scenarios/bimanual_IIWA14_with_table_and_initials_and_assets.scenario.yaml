@@ -1,0 +1,10 @@
+# Station scenario
+directives:
+  - add_directives:
+      file: file:///workspaces/Projects/robotic_manipulation/00-Pset-9/directives/bimanual_IIWA14_with_table_and_initials_and_assets.dmd.yaml
+
+model_drivers:
+  iiwa: !IiwaDriver
+    control_mode: position_only
+    hand_model_name: wsg
+  wsg: !SchunkWsgDriver {}

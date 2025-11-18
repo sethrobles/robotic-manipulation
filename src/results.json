@@ -1,0 +1,19 @@
+{
+    "tests": [
+        {
+            "name": "Test DiffIKQP",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed"
+        },
+        {
+            "name": "Test DiffIK_Wall",
+            "score": 6,
+            "max_score": 6,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "0.04",
+    "score": 10
+}

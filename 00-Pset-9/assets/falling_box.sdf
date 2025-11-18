@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="falling_box">
+    <link name="box_link">
+      <inertial>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.0001</ixx>
+          <iyy>0.0001</iyy>
+          <izz>0.0001</izz>
+        </inertia>
+      </inertial>
+      <collision name="box_collision">
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="box_visual">
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.2 0.2 1</ambient>
+          <diffuse>0.8 0.2 0.2 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

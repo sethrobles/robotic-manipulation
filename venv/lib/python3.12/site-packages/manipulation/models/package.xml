@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>manipulation</name>
+  <version>1.0.0</version>
+  <description>
+    This package contains miscellaneous models authored by Russ for the manipulation class.
+  </description>
+  <author email="russt@mit.edu">Russ Tedrake</author>
+  <maintainer email="russt@mit.edu">Russ Tedrake</maintainer>
+  <license>BSD</license>
+</package>
+

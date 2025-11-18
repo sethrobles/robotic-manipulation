@@ -1,0 +1,8 @@
+ipywidgets==8.1.7
+
+# We need to repeat drake's wheel dependencies here so that they end up in
+# Deepnote's venv. Deepnote no longer sees the Ubuntu packages in /usr/lib.
+matplotlib==3.10.3
+numpy==1.26.4
+pydot==4.0.1
+PyYAML==6.0.2

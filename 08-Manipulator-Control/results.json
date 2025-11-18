@@ -1,0 +1,13 @@
+{
+    "tests": [
+        {
+            "name": "Test compute_ctrl",
+            "score": 2,
+            "max_score": 2,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "0.02",
+    "score": 2
+}

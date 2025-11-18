@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "test_inverted_pendulum_structure (manipulation.exercises.intro.test_intro_fundamentals.TestIntroFundamentalsPendulumImplementation.test_inverted_pendulum_structure)",
+            "score": 10,
+            "max_score": 10,
+            "status": "passed"
+        },
+        {
+            "name": "test_pendulum_dynamics (manipulation.exercises.intro.test_intro_fundamentals.TestIntroFundamentalsPendulumImplementation.test_pendulum_dynamics)",
+            "score": 10,
+            "max_score": 10,
+            "status": "passed"
+        },
+        {
+            "name": "Test pendulum output computation",
+            "score": 10,
+            "max_score": 10,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "0.01",
+    "score": 30
+}

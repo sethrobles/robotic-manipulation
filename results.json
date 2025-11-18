@@ -1,0 +1,14 @@
+{
+    "tests": [
+        {
+            "name": "Test RRT Planner",
+            "score": 0.0,
+            "max_score": 5,
+            "status": "failed",
+            "output": "Constructed problem object\nStarted to solve the problem using RRT planner ...\nrun 1 found a solution\n\nTest Failed: False is not true : please use tuple to store configurations.The computed path should be a list of tuples\n"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "7.64",
+    "score": 0.0
+}

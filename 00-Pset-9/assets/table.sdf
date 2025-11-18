@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<sdf version="1.7" xmlns:drake="http://drake.mit.edu">
+  <model name="table">
+    <link name="table_top">
+      <inertial>
+        <mass>10.0</mass>
+        <inertia>
+          <ixx>0.3020833333333333</ixx><iyy>0.5354166666666667</iyy><izz>0.8333333333333333</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <geometry><box><size>0.8 0.6 0.05</size></box></geometry>
+        <material>
+          <ambient>0.6 0.6 0.6 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+        </material>
+      </visual>
+
+      <collision name="collision">
+        <geometry><box><size>0.8 0.6 0.05</size></box></geometry>
+        <drake:proximity_properties>
+          <drake:hunt_crossley_dissipation>1.0</drake:hunt_crossley_dissipation>
+          <drake:mu_static>1.0</drake:mu_static>
+          <drake:mu_dynamic>0.8</drake:mu_dynamic>
+        </drake:proximity_properties>
+      </collision>
+    </link>
+  </model>
+</sdf>

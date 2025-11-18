@@ -1,0 +1,19 @@
+{
+    "tests": [
+        {
+            "name": "Test icp implementation",
+            "score": 3,
+            "max_score": 3,
+            "status": "passed"
+        },
+        {
+            "name": "Test least square transform",
+            "score": 3,
+            "max_score": 3,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "9.54",
+    "score": 6
+}

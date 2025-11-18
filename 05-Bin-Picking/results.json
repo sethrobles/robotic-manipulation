@@ -1,0 +1,13 @@
+{
+    "tests": [
+        {
+            "name": "Test find_antipodal_pts",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "3.72",
+    "score": 4
+}
